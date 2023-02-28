@@ -1,0 +1,151 @@
+*
+{
+	margin: 0;
+	padding: 0;	
+}
+body
+{
+	--variable-color : darkorange;
+	--taille-police : 3rem;
+	--police : "Poppins";
+	--police1 : "Poppins:500";
+	--var-color : white;
+}
+.entete
+{
+	position: relative;
+	display: flex;
+	
+}
+.bella
+{
+	background-image: url(Logo.png); 
+	width: 15%; 
+	margin-left: 5%;
+	block-size: 10rem; 
+	background-size: cover; 
+	background-position: center; 
+	background-repeat: no-repeat; 
+}
+.menu
+{
+	margin-top: 4%;
+	position: absolute;
+	right: 10%;
+	display: flex;
+	right: 0;
+	font-size: var(--taille-police);
+	font-family: var(--police);
+}
+.home
+{
+	color: var(--variable-color);
+}
+.lekeu
+{
+	position: relative;
+	background-image: url(baniere.jpeg); 
+	background-color: black;
+	width: 100%; 
+	margin-top: 2%;
+	block-size: 40rem; 
+	background-size: cover; 
+	background-position: center; 
+	background-repeat: no-repeat; 
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: var(--var-color);
+
+}
+.food
+{
+	margin-top: -5%;
+	font-size: 2rem;
+	font-family: Poppins;
+	font-weight: bold;
+}
+.why
+{
+	font-size: var(--taille-police);
+	font-family: var(--police);
+	font-weight: bold;
+}
+.you
+{
+	font-size: var(--taille-police);
+	font-family: var(--police);
+	font-weight: bold;
+}
+.down
+{
+	font-size: 2rem;
+	font-family: var(--police);
+}
+.rect
+{
+	display: flex;
+}
+.play
+{
+	margin-top: 10%;
+	border-radius: 25px;
+	font-family: var(--police);
+	background-color: tomato;
+	font-size: var(--taille-police);
+
+}
+.app
+{
+	margin-top: 10%;
+	border-radius: 25px white;
+	font-weight: bold;
+	font-family: var(--police);
+	font-size: var(--taille-police);
+}
+.app:hover
+{
+	color: tomato;
+}
+.tel
+{
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 12em;
+	
+}
+.double
+{
+	position: absolute;
+	background-image: url(2telephones.png); 
+	width: 90%; 
+	block-size: 40rem; 
+	background-position: center; 
+	background-repeat: no-repeat; 
+	
+}
+
+.e_trait
+{
+	width: 100%;
+	block-size: 100%;
+	margin-left: 12%;
+}
+.trait
+{
+	background-color: slategray;
+	block-size: 4.5px;
+	width: 80%;
+	margin-top: 20%;
+
+}
+.how
+{
+	font-size: 3em;	
+	left: 50%;
+	position: absolute;
+	transform: translateX(-50%);
+}
